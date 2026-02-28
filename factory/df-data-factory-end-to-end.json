@@ -1,0 +1,9 @@
+{
+	"name": "df-data-factory-end-to-end",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3ba0ce6f-4148-425a-a04c-a8b541288088",
+		"tenantId": "8f243426-a5a6-4c1c-9d7a-cb7a46a91fd7"
+	}
+}
