@@ -1,0 +1,48 @@
+{
+	"name": "csvfile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ajkerkaj",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sales1.csv",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "OrderID",
+				"type": "String"
+			},
+			{
+				"name": "Customer",
+				"type": "String"
+			},
+			{
+				"name": "Item",
+				"type": "String"
+			},
+			{
+				"name": "Quantity",
+				"type": "String"
+			},
+			{
+				"name": "Price",
+				"type": "String"
+			},
+			{
+				"name": "OrderDate",
+				"type": "String"
+			}
+		]
+	}
+}
