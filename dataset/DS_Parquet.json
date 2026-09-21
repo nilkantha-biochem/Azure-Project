@@ -1,0 +1,21 @@
+{
+	"name": "DS_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkservice_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "orders",
+				"fileSystem": "sink"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

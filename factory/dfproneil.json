@@ -1,0 +1,15 @@
+{
+	"name": "dfproneil",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bce4d164-5085-469d-b740-c47ec6d86cb9",
+		"tenantId": "b20f4c37-bf21-448f-8dc6-a9b5dfbf5be5"
+	}
+}
